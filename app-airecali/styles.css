@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+#calidad-aire {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+#resultado {
+    margin: 20px 0;
+}
+
+#ica-value {
+    font-size: 1.5em;
+    color: #333;
+}
+
+#alerta {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#alerta.baja {
+    color: green;
+}
+
+#alerta.moderada {
+    color: orange;
+}
+
+#alerta.alta {
+    color: red;
+}
+
+#sugerencias ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sugerencias li {
+    padding: 8px;
+    background-color: #f8f8f8;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
